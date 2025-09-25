@@ -7,7 +7,8 @@ langchain>=0.3.0
 langchain-community>=0.3.0
 
 # OpenAI & Tokenization
-openai>=1.42.0
+langchain-openai>=0.2
+openai>=1.45.0
 tiktoken>=0.7.0
 
 # Embeddings / VectorStore
