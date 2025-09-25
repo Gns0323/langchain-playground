@@ -26,17 +26,17 @@ langchain-playground/
 
 ## ⚙️ 환경 세팅
 bash
-# 1. 가상환경 생성
+### 1. 가상환경 생성
 python -m venv .venv
 source .venv/bin/activate   # (Windows: .venv\Scripts\activate)
 
-# 2. 의존성 설치
+### 2. 의존성 설치
 pip install -r requirements.txt
 
-# 3. Jupyter 커널 등록 (처음 한 번만)
+### 3. Jupyter 커널 등록 (처음 한 번만)
 python -m ipykernel install --user --name lc-play --display-name "Python (lc-play)"
 
-# 4. API 키 설정
+### 4. API 키 설정
 cp .env.example .env   # .env에 OPENAI_API_KEY=your-key-here 입력
 
 ## 학습/기록 방식
